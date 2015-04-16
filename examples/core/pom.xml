@@ -35,6 +35,8 @@
               <generateViewAfterStories>true</generateViewAfterStories>
               <ignoreFailureInStories>${ignore.failure.in.stories}</ignoreFailureInStories>
               <ignoreFailureInView>${ignore.failure.in.view}</ignoreFailureInView>
+              <storyTimeoutInSecs>200</storyTimeoutInSecs>  
+              <storyTimeoutInSecsByPath>**/and_.*.story:8,**/.*calendar.story:15,**/failure.*.story:3,**/do_nothing.story:6</storyTimeoutInSecsByPath>  
               <threads>2</threads>
               <metaFilters>
                 <metaFilter>${meta.filter}</metaFilter>
